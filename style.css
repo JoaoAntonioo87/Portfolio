@@ -1,7 +1,2 @@
 @import "styles/reset.css";
 @import "styles/global.css";
-
-.container {
-  max-width: 300px;
-  margin: 0 auto;
-}

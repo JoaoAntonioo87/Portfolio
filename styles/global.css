@@ -1,3 +1,13 @@
+:root {
+  --COLOR-C1: #f7f7f7;
+  --COLOR-C2: #d9d9d9;
+  --COLOR-C3: #606470;
+  --COLOR-C4: #323643;
+  --COLOR-P1: #93deff;
+  --COLOR-P2: #4ca5cc;
+  --COLOR-P3: #257598;
+}
+
 .container {
   max-width: 300px;
   margin: 0 auto;

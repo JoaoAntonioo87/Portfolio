@@ -42,3 +42,29 @@
 .color-p3 {
   color: var(--COLOR-P3);
 }
+
+.font-1-xl {
+  font: var(--FONT-1-XL);
+}
+.font-1-l {
+  font: var(--FONT-1-L);
+}
+.font-1-m {
+  font: var(--FONT-1-M);
+}
+.font-2-l {
+  font: var(--FONT-2-L);
+}
+.font-1-s {
+  font: var(--FONT-1-S);
+  letter-spacing: 2px;
+}
+.font-1-xs {
+  font: var(--FONT-1-XS);
+}
+.font-2-m {
+  font: var(--FONT-2-M);
+}
+.font-2-s {
+  font: var(--FONT-2-S);
+}

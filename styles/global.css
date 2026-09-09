@@ -12,3 +12,25 @@
   max-width: 300px;
   margin: 0 auto;
 }
+
+.color-c1 {
+  color: var(--COLOR-C1);
+}
+.color-c2 {
+  color: var(--COLOR-C2);
+}
+.color-c3 {
+  color: var(--COLOR-C3);
+}
+.color-c4 {
+  color: var(--COLOR-C4);
+}
+.color-p1 {
+  color: var(--COLOR-P1);
+}
+.color-p2 {
+  color: var(--COLOR-P2);
+}
+.color-p3 {
+  color: var(--COLOR-P3);
+}

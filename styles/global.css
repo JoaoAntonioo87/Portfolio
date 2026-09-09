@@ -6,6 +6,14 @@
   --COLOR-P1: #93deff;
   --COLOR-P2: #4ca5cc;
   --COLOR-P3: #257598;
+  --FONT-1-XL: 700 clamp(4rem, 8vw, 10rem) / 1.5 "Stack Sans Notch";
+  --FONT-1-L: 500 clamp(3rem, 6vw, 7.5rem)/1.2 "Stack Sans Notch";
+  --FONT-1-M: 500 clamp(2.5rem, 5vw, 6rem)/1.25 "Stack Sans Notch";
+  --FONT-2-L: 500 clamp(2.5rem, 5vw, 6rem)/1.25 "Space Grotesk";
+  --FONT-1-S: 500 clamp(2.5rem, 4vw, 5rem)/1.5 "Stack Sans Notch";
+  --FONT-1-XS: 400 clamp(1.75rem, 3vw, 4rem)/1.25 "Stack Sans Notch";
+  --FONT-2-M: 500 clamp(1.75rem, 3vw, 4rem)/1.25 "Space Grotesk";
+  --FONT-2-S: 500 clamp(1.25rem, 2vw, 3rem)/1.33 "Space Grotesk";
 }
 
 .container {

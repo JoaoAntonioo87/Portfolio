@@ -15,16 +15,30 @@
 <body class="body">
   <header class="header">
     <div class="container">
-      <nav class="nav-header">
-        <a href="./" class="titulo-header">João Antonio</a>
-        <ul>
-          <li><a href="#trabalhos" class="link-header">Trabalhos</a></li>
-          <li><a href="#experiencias" class="link-header">Experiências</a></li>
-        </ul>
-        <a href="#contato" class="link-contato-header">Contato</a>
+      <nav class="nav-mobile">
+        <a href="./" class="titulo-header color-p3 font-1-s">João Antonio</a>
+
+        <button class="menu-hamburguer"><img src="./img/menu-hamburguer-icon.svg" alt="Ícone para abrir o menu"></button>
+        <div class="menu-dropdown">
+          <a href="#trabalhos" class="link-header color-c3 font-1-xs">Trabalhos</a>
+          <a href="#experiencias" class="link-header color-c3 font-1-xs">Experiências</a>
+          <a href="#contato" class="link-header color-c3 font-1-xs">Contato</a>
+        </div>
+      </nav>
+
+      <nav class="nav-desktop">
+        <div class="menu-desktop">
+          <a href="./" class="titulo-header color-p3 font-1-s">João Antonio</a>
+          <ul>
+            <li><a href="#trabalhos" class="link-header color-c3 font-1-xs">Trabalhos</a></li>
+            <li> <a href="#experiencias" class="link-header color-c3 font-1-xs">Experiências</a></li>
+          </ul>
+          <a href="#contato" class="link-header color-c4 font-1-s">Contato</a>
+        </div>
       </nav>
     </div>
   </header>
+  <script type="module" src="./modules/script.js"></script>
 </body>
 
 </html>

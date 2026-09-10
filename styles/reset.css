@@ -23,3 +23,8 @@ textarea,
 select {
   font: inherit;
 }
+
+button {
+  border: none;
+  background-color: inherit;
+}

@@ -57,7 +57,7 @@
 }
 .font-1-s {
   font: var(--FONT-1-S);
-  letter-spacing: 2px;
+  letter-spacing: 2%;
 }
 .font-1-xs {
   font: var(--FONT-1-XS);

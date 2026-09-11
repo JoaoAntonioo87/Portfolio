@@ -99,3 +99,60 @@
     transition: all 0.3s;
   }
 }
+
+.introducao {
+  margin-top: 2rem;
+}
+
+.titulo-intro {
+  text-align: center;
+}
+
+.paragrafo-intro {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.links-intro {
+  display: flex;
+  gap: 1.75rem;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.links-intro img {
+  width: clamp(2.5rem, 4vw, 3.75rem);
+}
+
+.hero-intro {
+  margin-top: 2rem;
+  justify-self: center;
+}
+
+@media (min-width: 1440px) {
+  .introducao {
+    display: grid;
+    align-items: end;
+    grid-template-columns: 5fr 7fr;
+    margin-top: 120px;
+  }
+
+  .titulo-intro,
+  .paragrafo-intro {
+    text-align: left;
+  }
+
+  .paragrafo-intro {
+    margin-top: 40px;
+  }
+
+  .links-intro {
+    justify-content: start;
+    gap: 40px;
+    margin-top: 20px;
+  }
+
+  .links-intro img {
+    max-width: inherit;
+  }
+}

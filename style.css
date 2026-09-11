@@ -156,3 +156,77 @@
     max-width: inherit;
   }
 }
+
+.trabalhos {
+  margin-top: 4rem;
+}
+
+.subtitulo {
+  text-align: center;
+}
+
+.trabalho {
+  margin-top: clamp(1rem, 4vw, 5rem);
+  position: relative;
+}
+
+.trabalho + .trabalho {
+  margin-top: clamp(4rem, 8vw, 8rem);
+}
+
+.trabalho + .trabalho::before {
+  position: absolute;
+  content: "";
+  width: 80%;
+  height: 2px;
+  left: 10%;
+  top: clamp(-4rem, -4vw, -2.5rem);
+  background-color: var(--COLOR-C2);
+}
+
+.trabalho img {
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(50, 54, 67, 0.5);
+  max-height: 400px;
+  width: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.titulo-trabalho {
+  text-align: center;
+  margin-top: clamp(1rem, 4vw, 3.75rem);
+}
+
+.habilidades-trabalho {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: clamp(0.5rem, 2vw, 1.25rem);
+  align-items: start;
+}
+
+.habilidades-trabalho span {
+  background-color: var(--COLOR-C2);
+  border-radius: 4px;
+  padding: 0 4px;
+}
+
+.trabalho p {
+  margin-top: clamp(0.75rem, 3vw, 1.5rem);
+}
+
+.trabalho a {
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .trabalho {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: clamp(1rem, 4vw, 2.5rem);
+  }
+
+  .titulo-trabalho {
+    text-align: left;
+  }
+}

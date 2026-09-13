@@ -233,6 +233,7 @@
 
 .timelines {
   margin-top: 4rem;
+  position: relative;
 }
 
 .timeline {
@@ -340,4 +341,33 @@
   .timeline + .timeline {
     margin-top: 0;
   }
+}
+
+.timelines::after {
+  position: absolute;
+  content: "";
+  width: 80%;
+  height: 2px;
+  left: 10%;
+  background-color: var(--COLOR-C2);
+  bottom: clamp(-12rem, -10vw, -6rem);
+}
+
+.contato {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin-top: clamp(12rem, 20vw, 24rem);
+}
+
+.contato .subtitulo {
+  max-width: 23ch;
+}
+
+.contato .btn {
+  background-color: var(--COLOR-P3);
+  padding: 10px 20px;
+  border-radius: 16px;
+  box-shadow: 0 10px 12px rgba(37, 117, 152, 0.45);
+  margin-top: 2rem;
 }

@@ -205,13 +205,19 @@
   align-items: start;
 }
 
-.habilidades-trabalho span {
+.habilidades-trabalho ul {
+  display: flex;
+  gap: 8px;
+}
+
+.habilidades-trabalho li {
   background-color: var(--COLOR-C2);
   border-radius: 4px;
   padding: 0 4px;
 }
 
-.trabalho p {
+.trabalho p,
+.trabalho h4 {
   margin-top: clamp(0.75rem, 3vw, 1.5rem);
 }
 
@@ -282,7 +288,12 @@
   z-index: 1;
 }
 
-.timeline-item p {
+.timeline h3,
+.timeline p {
+  display: inline-block;
+}
+
+.timeline-item h4 {
   margin-top: 0.5rem;
 }
 
@@ -379,7 +390,7 @@
   margin-top: 2rem;
 }
 
-.footer p {
+.footer h3 {
   margin-top: 20px;
 }
 

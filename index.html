@@ -13,10 +13,13 @@
 </head>
 
 <body class="body">
+
+  <a href="#principal" aria-label="Link para o conteúdo principal da página."></a>
+
   <header class="header">
     <div class="container">
       <nav class="nav-mobile">
-        <a href="./" class="titulo-header color-p3 font-1-s">João Antonio</a>
+        <a href="#" class="titulo-header color-p3 font-1-s">João Antonio</a>
 
         <button class="menu-hamburguer"><img src="./img/menu-hamburguer-icon.svg" alt="Ícone para abrir o menu"></button>
         <div class="menu-dropdown">
@@ -28,7 +31,7 @@
 
       <nav class="nav-desktop">
         <div class="menu-desktop">
-          <a href="./" class="titulo-header color-p3 font-1-s">João Antonio</a>
+          <a href="./" class="titulo-header color-p3 font-1-s" aria-label="Início da página João Antonio">João Antonio</a>
           <ul>
             <li><a href="#trabalhos" class="link-header color-c3 font-1-xs">Trabalhos</a></li>
             <li> <a href="#experiencias" class="link-header color-c3 font-1-xs">Experiências</a></li>
@@ -39,7 +42,7 @@
     </div>
   </header>
 
-  <main>
+  <main id="principal">
     <section class="introducao container">
       <div>
         <h1 class="titulo-intro color-c4 font-1-xl">Desenvolvedor Front-end</h1>
@@ -66,17 +69,22 @@
         <img src="./img/trabalho-01.jpg" alt="Imagem da página Pão e Tradição">
 
         <div>
-          <h3 class="titulo-trabalho color-c4 font-2-l">Pão & Tradição</h3>
+          <h3 class="titulo-trabalho color-c4 font-2-l" aria-label="Pão e tradição">Pão & Tradição</h3>
 
-          <div class="habilidades-trabalho color-c4 font-2-s">
-            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>UI/UX Design</span>
-          </div>
+          <section class="habilidades-trabalho color-c4 font-2-s">
+            <ul class="lista-habilidades" aria-label="Tecnologias utilizadas no desenvolvimento do site.">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>UI/UX Design</li>
+            </ul>
+          </section>
 
-          <p class="color-c3 font-2-s">Projeto pessoal de uma padaria familiar tradicional em França/SP.</p>
+          <p class="color-c3 font-2-s">Projeto pessoal de uma padaria familiar tradicional em Franca/SP.</p>
 
-          <p class="color-c3 font-2-s">Saiba mais em
-            <a href="https://joaoantonioo87.github.io/PaoETradicao" class="color-p2">aqui</a>
-          </p>
+          <h4 class="color-c3 font-2-s">Saiba mais em
+            <a href="https://joaoantonioo87.github.io/PaoETradicao" class="color-p3" aria-label="Link para acessar a página Pão e Tradição aqui">aqui</a>
+          </h4>
         </div>
 
       </article>
@@ -87,15 +95,20 @@
         <div>
           <h3 class="titulo-trabalho color-c4 font-2-l">Clínica Dr. Pigiotou</h3>
 
-          <div class="habilidades-trabalho color-c4 font-2-s">
-            <span>JavaScript</span><span>HTML</span><span>CSS</span><span>Responsivo</span>
-          </div>
+          <section class="habilidades-trabalho color-c4 font-2-s">
+            <ul class="lista-habilidades" aria-label="Tecnologias utilizadas no desenvolvimento do site.">
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Responsividade</li>
+            </ul>
+          </section>
 
-          <p class="color-c3 font-2-s">Utilizei tecnologias atuais como HTML, CSS, JavaScript ES6 e layout responsividade</p>
+          <p class="color-c3 font-2-s">Utilizei tecnologias atuais como HTML, CSS, JavaScript ES6 e layout responsivo.</p>
 
-          <p class="color-c3 font-2-s">Saiba mais em
-            <a href="https://joaoantonioo87.github.io/DrPigiotou/" class="color-p2">aqui</a>
-          </p>
+          <h4 class="color-c3 font-2-s">Saiba mais em
+            <a href="https://joaoantonioo87.github.io/DrPigiotou/" class="color-p3" aria-label="Link para acessar a página Dr. Pigiotou aqui">aqui</a>
+          </h4>
         </div>
       </article>
 
@@ -109,9 +122,10 @@
 
           <picture> <img src="./img/briefcase.svg" alt="" class="icone-timeline"> </picture>
 
-          <h3 class="titulo-timeline color-c4 font-2-m">Total Química — <span class="color-c4 font-2-s">Assistente Administrativo</span> </h3>
-          <p class="color-c4 font-2-s">Jul 2023 — Atualmente</p>
-          <ul class="color-c3 font-2-s">
+          <h3 class="titulo-timeline color-c4 font-2-m" aria-label="Empresa Total Química">Total Química — </h3>
+          <p class="color-c4 font-2-s">Assistente Administrativo</p>
+          <h4 class="color-c4 font-2-s" aria-label="Tempo trabalhado, de julho de 2023 até os dias atuais.">Jul 2023 — Atualmente</h4>
+          <ul class="color-c3 font-2-s" aria-label="Principais funções">
             <li>Controle de estoque e despesas utilizando Excel</li>
             <li>Organização do sistema de arquivamento físico</li>
             <li>Suporte técnico computacional interno a usuários</li>
@@ -119,11 +133,12 @@
         </div>
         <div class="timeline-item experiencia">
           <picture> <img src="./img/clipboard-icon.svg" alt="" class="icone-timeline"> </picture>
-          <div>
-            <h3 class="titulo-timeline color-c4 font-2-m">Total Química — <span class="color-c4 font-2-s">Aprendiz Administrativo</span> </h3>
-          </div>
-          <p class="color-c4 font-2-s">Jun 2022 — Jul 2023</p>
-          <ul class="color-c3 font-2-s">
+
+          <h3 class="titulo-timeline color-c4 font-2-m" aria-label="Empresa Total Química">Total Química — </h3>
+          <p class="color-c4 font-2-s">Aprendiz Administrativo</p>
+
+          <h4 class="color-c4 font-2-s" aria-label="Tempo trabalhado, de junho de 2022 à julho de 2023.">Jun 2022 — Jul 2023</h4>
+          <ul class="color-c3 font-2-s" aria-label="Principais funções">
             <li>Arquivo de notas fiscais de entrada e saída</li>
             <li>Distribuição de holerites e envio de documentos</li>
           </ul>
@@ -133,8 +148,8 @@
           <div>
             <h3 class="titulo-timeline color-c4 font-2-m">Pura Arte — <span class="color-c4 font-2-s">Vendedor</span> </h3>
           </div>
-          <p class="color-c4 font-2-s">Nov 2021 — Jun 2022</p>
-          <ul class="color-c3 font-2-s">
+          <h4 class="color-c4 font-2-s" aria-label="Tempo trabalhado, de novembro de 2021 à junho de 2022.">Nov 2021 — Jun 2022</h4>
+          <ul class="color-c3 font-2-s" aria-label="Principais funções">
             <li>Atendimento a clientes pessoalmente e por telefone</li>
             <li>Organização da vitrine e limpeza da loja</li>
           </ul>
@@ -178,8 +193,8 @@
         <div class="timeline-item formacao">
           <picture> <img src="./img/graduation-icon.svg" alt="" class="icone-timeline"> </picture>
           <h3 class="titulo-timeline color-c4 font-2-m">Tecnólogo em Gestão de TI</h3>
-          <p class="color-c3 font-2-s">Centro Universitário Santa Cruz — Curitiba/PR</p>
-          <p class="color-c3 font-2-s">Jan 2022 — Jul 2024 </p>
+          <h4 class="color-c3 font-2-s">Centro Universitário Santa Cruz — Curitiba/PR</h4>
+          <span class="color-c3 font-2-s">Jan 2022 — Jul 2024 </span>
         </div>
       </article>
 
@@ -210,7 +225,7 @@
   </main>
 
   <footer class="footer">
-    <p class="color-c3 font-2-s">Feito por João Antonio</p>
+    <h3 class="color-c3 font-2-s">Feito por João Antonio</h3>
     <ul>
       <li> <a href="https://github.com/JoaoAntonioo87"><img src="./img/github-logo.svg" alt="Link para o GitHub"></a> </li>
       <li><a href="https://www.linkedin.com/in/joao-antonio-cs/"><img src="./img/linkedin-logo.svg" alt="Link para o LinkedIn"></a></li>

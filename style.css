@@ -371,3 +371,24 @@
   box-shadow: 0 10px 12px rgba(37, 117, 152, 0.45);
   margin-top: 2rem;
 }
+
+.footer {
+  background-color: var(--COLOR-C1);
+  display: grid;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.footer p {
+  margin-top: 20px;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 8px;
+}
+
+.footer img {
+  width: clamp(2rem, 5vw, 2.5rem);
+}

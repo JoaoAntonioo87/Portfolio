@@ -14,6 +14,8 @@
   --FONT-1-XS: 400 clamp(1.25rem, 3vw, 2rem)/1.25 "Stack Sans Notch";
   --FONT-2-M: 500 clamp(1.25rem, 3vw, 2rem)/1.25 "Space Grotesk";
   --FONT-2-S: 500 clamp(0.75rem, 2vw, 1.5rem)/1.33 "Space Grotesk";
+
+  scroll-behavior: smooth;
 }
 
 .container {

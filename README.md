@@ -8,4 +8,4 @@ This is my personal portfolio; here are all my projects and ways to get in touch
 - JavaScript ES6
 
 ## URL
-Link to the portfolio: joaoantonioportfolio.com
+Link to the portfolio: https://joaoantonioportfolio.com
